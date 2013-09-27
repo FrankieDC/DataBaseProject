@@ -10,7 +10,7 @@ $(document).on('pagebeforeshow', "#search", function( event, ui ) {
 	var item;
 	for (var i=0; i < len; ++i){
 		item = itemList[i];
-		list.append("<li><a href=\"#\">" + 
+		list.append("<li><a href=\"details.html\">" + 
 			"<img src="+ item.picture +">"+
 			"<center>" +
 			"<p>" + item.name + item.model + "</br>"+  item.year + "</br>"+ item.description + "</p>" + "</center>" +
